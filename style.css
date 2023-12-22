@@ -110,6 +110,35 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: all 0.4s;
+}
+
+.menu__button:hover {
+  background-color: #2b363b;
+  color: #fff;
+  cursor: pointer;
+}
+
+.menu__button:focus {
+  background-color: #2b363b;
+  color: #fff;
+  cursor: pointer;
+}
+
+.menu__button--active {
+  background-color: #2b363b;
+  color: #fff;
+  position: relative;
+}
+
+.menu__button--active::before {
+  content: "";
+  width: 3px;
+  height: 100%;
+  background-color: #375bb6;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .menu__icon {
