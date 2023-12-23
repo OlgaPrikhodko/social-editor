@@ -335,6 +335,7 @@ button {
   justify-content: center;
   align-items: center;
   margin-top: -25px;
+  column-gap: 20px;
 }
 
 .canvas {
@@ -399,12 +400,34 @@ button {
 
 .tools {
   height: 57.5vh;
-  background-color: #404c52;
   display: flex;
   flex-direction: column;
+  row-gap: 5px;
 }
 
 .tool {
+  background-color: #e1e6e9;
+  height: 44px;
+  width: 44px;
+  border-radius: 8px;
+  color: #404446;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.tool:hover,
+.tool:focus {
+  background-color: #2b363b;
+  color: #fff;
+}
+
+.tool:last-child {
+  margin-top: auto;
+}
+
+.tool--active {
+  background-color: #2b363b;
+  color: #fff;
 }
 
 .tool__icon {
