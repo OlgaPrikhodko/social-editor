@@ -366,18 +366,35 @@ button {
 }
 
 .canvas__circle {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
 }
 
 .canvas__circle:nth-of-type(1) {
+  top: 11.5%;
+  left: 10.4%;
+  cursor: nw-resize;
 }
 
 .canvas__circle:nth-of-type(2) {
+  top: 11.5%;
+  right: 10.4%;
+  cursor: sw-resize;
 }
 
 .canvas__circle:nth-of-type(3) {
+  bottom: 11.5%;
+  left: 10.4%;
+  cursor: nw-resize;
 }
 
 .canvas__circle:nth-of-type(4) {
+  bottom: 11.5%;
+  right: 10.4%;
+  cursor: sw-resize;
 }
 
 .tools {
