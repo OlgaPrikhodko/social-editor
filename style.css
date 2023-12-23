@@ -207,6 +207,7 @@ button {
   padding: 25px 0;
   display: flex;
   flex-wrap: wrap;
+  gap: 8px;
 }
 
 .panel__img {
@@ -214,6 +215,12 @@ button {
   height: 140px;
   object-fit: cover;
   border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.panel__img:hover {
+  transform: scale(1.05);
 }
 
 .panel__btn {
@@ -225,6 +232,12 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.2s;
+}
+
+.panel__btn:hover,
+.panel__btn:focus {
+  background-color: #404c52;
 }
 
 .panel__upload-icon {
