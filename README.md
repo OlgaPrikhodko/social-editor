@@ -1,4 +1,4 @@
-published [https://olgaprikhodko.github.io/social-editor/](https://olgaprikhodko.github.io/social-editor/)
+
 
 # Social Editor UI Prototype
 
